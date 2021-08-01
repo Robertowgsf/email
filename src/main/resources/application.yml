@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/email
+    username: postgres
+    password: postgres
+
+cloud:
+  aws:
+    region:
+      static: us-east-1
+    credentials:
+      profile-name: GithubSES
